@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_cursos">
+
+    <fragment
+        android:id="@+id/navigation_cursos"
+        android:name="com.example.appcursos.ui.cursos.CursosFragment"
+        android:label="@string/title_cursos"
+        tools:layout="@layout/fragment_cursos" />
+
+    <fragment
+        android:id="@+id/navigation_buscar"
+        android:name="com.example.appcursos.ui.buscar.BuscarFragment"
+        android:label="@string/title_buscar"
+        tools:layout="@layout/fragment_buscar" />
+
+    <fragment
+        android:id="@+id/navigation_miscursos"
+        android:name="com.example.appcursos.ui.miscursos.MiscursosFragment"
+        android:label="@string/title_miscursos"
+        tools:layout="@layout/fragment_miscursos" />
+
+    <fragment
+        android:id="@+id/navigation_cuenta"
+        android:name="com.example.appcursos.ui.cuenta.CuentaFragment"
+        android:label="@string/title_cuenta"
+        tools:layout="@layout/fragment_cuenta"/>
+</navigation>

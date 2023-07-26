@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RestablecerpassActivity">
+
+    <TextView
+        android:id="@+id/tvTituloRestablecer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvRestablecerPass"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/fixedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="6dp"
+        android:text="Escribe la dirección de correo electrónico \asociada a tu cuenta y te enviaremos un enlace \para que puedas restablecer tu contraseña."
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/edtRestablecerPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints="Correo:"
+        android:ems="10"
+        android:hint="@string/edtRestablecerPass"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+
+    <Button
+        android:id="@+id/btnRestablecerPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/btnRestablecer"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/btnLinkAcceder"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:clickable="true"
+        android:text="@string/btnLinkAcceder"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- ImageView para mostrar la imagen del curso -->
+        <ImageView
+            android:id="@+id/imageViewCurso"
+            android:layout_width="150dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+            <!-- TextView para mostrar el nombre del curso -->
+            <TextView
+                android:id="@+id/textViewCursoName"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center|start"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- TextView para mostrar la descripción del curso -->
+            <TextView
+                android:id="@+id/textViewCursoDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center|start"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

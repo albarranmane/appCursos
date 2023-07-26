@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cursos"
+        android:icon="@drawable/ic_cursos"
+        android:title="@string/title_cursos" />
+
+    <item
+        android:id="@+id/navigation_buscar"
+        android:icon="@drawable/ic_buscar"
+        android:title="@string/title_buscar" />
+
+    <item
+        android:id="@+id/navigation_miscursos"
+        android:icon="@drawable/ic_miscursos"
+        android:title="@string/title_miscursos" />
+
+    <item
+        android:id="@+id/navigation_cuenta"
+        android:icon="@drawable/ic_cuenta"
+        android:title="@string/title_cuenta" />
+
+</menu>

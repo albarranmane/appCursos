@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".InicioActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/img_inicio" />
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:padding="16dp">
+
+        <!-- Elemento 1 -->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="484dp"
+            android:src="@drawable/ic_biblioteca" />
+
+        <!-- Elemento 2 -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_clase" />
+
+        <!-- Elemento 3 -->
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_diploma" />
+
+    </ViewFlipper>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnInicioRegistrarse"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/botonInicioRegistrarse" />
+        <!--style="?android:attr/buttonBarButtonStyle"-->
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnInicioAcceder"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/botonInicioAcceder" />
+        <!--style="?android:attr/buttonBarButtonStyle"-->
+
+    </LinearLayout>
+
+</LinearLayout>

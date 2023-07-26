@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">appCursos</string>
+    <string name="title_cursos">Cursos</string>
+    <string name="title_buscar">Buscar</string>
+    <string name="title_miscursos">Mis Cursos</string>
+    <string name="title_cuenta">Cuenta</string>
+    <string name="todo">TODO</string>
+    <string name="login">LOGIN</string>
+
+    <string name="botonInicioAcceder">ACCEDER</string>
+    <string name="tvAccederTitulo">ACCEDER</string>
+    <string name="edtAccederCorreo">Correo:</string>
+    <string name="edtAccederPassword">Password:</string>
+    <string name="btnAcceder">Acceder</string>
+    <string name="strAccederCrearCuenta"><u> REGISTRARSE </u></string>
+    <string name="strAccederRestablecerContraseña"><u> ¿Olvidaste tu contraseña? </u></string>
+
+    <string name="botonInicioRegistrarse">REGISTRARSE</string>
+    <string name="textViewTituloRegistrarse">REGISTRARSE</string>
+    <string name="edtRegistrarseNombre">Nombre:</string>
+    <string name="edtRegistrarseCorreo">Correo:</string>
+    <string name="edtRegistrarsePassword">Password:</string>
+    <string name="edtRegistrarseConfirmarPassword">Confirmar password:</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="strRegistrarseAcceder"><u> ACCEDER </u></string>
+
+    <string name="tvRestablecerPass">Restablecer Password </string>
+    <string name="edtRestablecerPass">Correo:</string>
+    <string name="btnRestablecer">Restablecer</string>
+    <string name="btnLinkAcceder"><u> ACCEDER </u></string>
+
+    <string name="btnCerrarSesion">CERRAR SESION</string>
+
+    <string name="account_user_info">Usuario actual:\nNombre: %1$s\nEmail: %2$s\nUID: %3$s</string>
+    <string name="account_display_name">(No especificado)</string>
+
+
+</resources>
